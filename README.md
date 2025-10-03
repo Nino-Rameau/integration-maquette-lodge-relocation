@@ -29,7 +29,7 @@ Cloner le repository et installer les dépendances :
 
 ```sh
 git clone https://github.com/Nino-Rameau/integration-maquette-lodge-relocation.git
-cd 
+cd integration-maquette-lodge-relocation
 npm install
 ```
 

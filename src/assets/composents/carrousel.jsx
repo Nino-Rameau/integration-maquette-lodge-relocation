@@ -259,7 +259,7 @@ export default function Carrousel() {
                 {onglets.map((onglet) => (
                 <button
                     key={onglet}
-                    className={`rounded-100 h-40 p-10-24 text-18 border-none w-170 h-40 m-4 pointer ${ongletActif === onglet ? "text-pri-800" : "bg-pri-800-hover text-ess-100-hover"}`}
+                    className={`rounded-100 p-10-24 text-18 border-none w-170 h-40 m-4 pointer ${ongletActif === onglet ? "text-pri-800" : "bg-pri-800-hover text-ess-100-hover"}`}
                     onClick={() => {
                     setOngletActif(onglet);
                     setIndex(0);
